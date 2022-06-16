@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+</head>
+<body class="body-bg">
+    <!-- Nav Bar -->
+    <nav class="navbar container-fluid navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h1><img class="logo" src="images/wheel2.png" alt="shipwheel.jpg">GRENDELSBANE</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav text-center">
+              <a class="nav-link" href="index.html">HOME</a>
+              <a class="nav-link" href="comparison.html">COMPARISON</a>
+              <a class="nav-link" href="catalogue.html">CATALOGUE</a>
+              <a class="nav-link " href="contact.html">CONTACT</a>
+              <a class="nav-link " href="order.html">COMMISSION</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+        <h2>COMMISSION SHIP</h2>
+
+    <main>
+        <form class="formWidth">
+    <br>
+            <label for="shipselector">Select Ship Class To Commission</label>
+            <br>
+            <br>
+            <select class="form-group form-control" name="shipselector" id="shipselector"  value="Select Ship Class">
+                
+                <option value="Nimitz Class" >Nimitz Class</option>
+                <option value="Gerald R. Ford Class">Gerald R. Ford Class</option>
+                <option value="Virginia Class">Virginia Class</option>
+                <option value="Seawolf Class">Seawolf Class</option>
+                <option value="Ticonderoga Class">Ticonderoga Class</option>
+                <option value="Arleigh Burke Class">Arleigh Burke Class</option>
+            
+            </select>
+            <br>
+        <br>
+        
+            <textarea class="form-control" name="" id="" cols="30" rows="5" placeholder="ADD ANY EXTRA SPECIFICATIONS HERE"></textarea>
+          
+            <br>
+            <br>
+            <label for="paymentmethod">Payment Method</label>
+            
+            <select class="form-control" name="paymentmethod" id="paymentmethod">
+                <option value="">BITCOIN</option>
+                <option value="">BEARER BONDS</option>
+                <option value="">CASH</option>
+                <option value="">DIAMONDS</option>
+            </select>
+            <br>
+            <br>
+            <label for="rnumber">SWIFT CODE</label>
+            <input class="form-control" type="text" name="rnumber" id="rnumber">
+
+            <br>
+            
+            <br>
+            <input class="btn-dark" type="submit" value="SUBMIT">
+
+          </form>
+    </main>
+    <div class="bottom-container navbar-nav navbar   navbar-expand-sm navbar-dark bg-dark sticky-bottom">
+        <div class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a class="nav-link link-danger" href="https://www.linkedin.com/"><img src="images/facebook.png" alt="">Facebook</a>
+            <a class="nav-link link-danger" href="https://twitter.com/"><img src="images/twitter.png" alt="">Twitter</a>
+            <a class="nav-link link-danger" href="mailto:grendelsbane@gmail.com"><img src="images/mail.png" alt="">Gmail</a>
+        </div>
+        
+        <p class="text-white">© 2022 Grendelsbane.</p>
+        
+    </div>
+</body>
+</html>

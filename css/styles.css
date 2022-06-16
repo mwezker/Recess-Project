@@ -1,0 +1,99 @@
+
+h1{
+    text-align: center;
+    word-wrap: normal;
+    font-size: 2.7rem;
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+h4 {
+    color: white;
+}
+h6 {
+    color: white;
+}
+label {
+    color: white;
+}
+body {
+        background-color: grey;
+        background-image: url(../images/shipyard1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    
+}
+/* .body-bg { 
+    background: 
+    linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, black 25%, transparent 25%),
+    linear-gradient(45deg, black 25%, transparent 25%);	
+    background-size: 2em 2em;
+    background-color: #161616;
+
+} */
+img:hover {
+    
+    border: .5rem solid white;
+}
+nav img {
+    max-width: 2.5rem;
+}
+.bottom-container {
+    width: 100vw;
+}
+.bottom-container img {
+    max-width: 1rem;
+    max-height: 1rem;
+    float: left;
+}
+.p1div2 {
+    background: rgba(0, 0, 0, 0.589);
+}
+
+.p1div img {
+    max-width: 50vw;
+    float: left;
+    margin-right: 30px;
+}
+.galldiv * {
+    max-width: 100% ;
+    
+}
+.sectiondiv {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ctable {
+    max-width: 90vw;
+    margin: 0 auto;
+    justify-items: center;
+    text-align: center;
+}
+.ctable img {
+    max-width: 90%;
+}
+table {
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(49, 58, 58, 0.568);
+
+}
+.mapdiv {
+    width: 100%;
+    height: 100%;
+}
+.formWidth {
+    max-width: 60%;
+    margin: 0 auto;
+}
+.formWidth, .formWidth * {
+    text-transform:uppercase ;
+}
+.contactForm {
+    margin:5vh 5vw;
+}
